@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;500&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Rubik', sans-serif;
+}
+.hire_button, .download_button{
+  text-decoration: none;
+  width: 150px;
+  height: 70px;
+  font-size: 25px;
+  font-weight: 500;
+  border: none;
+  border-radius: 5px;
+  background: #FD6E0A;
+  color: #ffff;
+  padding: 15px 30px;
+}
+.cotact_button{
+  text-decoration: none;
+  width: 150px;
+  height: 70px;
+  font-size: 25px;
+  font-weight: 500;
+  border: 1px solid #FD6E0A;
+  border-radius: 5px;
+  background: #ffffff00;
+  color: #FD6E0A;
+  padding: 15px 30px;
+  margin-left: 30px;
+}
+a{
+  text-decoration: none;
+}
+p{
+  font-weight: 300;
+}
+.main_header{
+  background: FFF8F3;
+  background-image: url(images/header_bg.png), url(images/developer.png);
+  background-repeat: no-repeat;
+  background-position: bottom right, top left;
+}
+
+.main_nav{
+  margin: 50px 200px;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo{
+  text-transform: uppercase;  
+  font-size: 40px;
+}
+.logo_span{
+  text-transform: lowercase;
+  color: #FD6E0A;
+}
+.main_nav ul{
+  display:flex;
+  font-size: 22px;
+}
+.main_nav li{
+  list-style: none;
+  margin-left: 35px;  
+}
+/* nav style done */
+
+.banner{
+  margin: 0px 200px;
+  display: flex;
+  justify-content: space-between;
+}
+.banner_details{
+  align-self: center;
+}
+.banner_subTitle{
+  font-size: 45px;
+  font-weight: 300;
+}
+.banner_title{
+  font-size: 80px;
+  font-weight: 600;
+  margin: 15px 0px;
+}
+.banner_description{
+  width: 500px;
+  height: 230;
+  margin-bottom: 40px;
+}
+/* banner section done */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+    
+}
+.about_me{
+  margin-top: 150px;
+  padding: 150px;
+  background: #FFF8F3;
+  border-radius: 5px; 
+  text-align: center;
+ 
+}
+.section_title{
+  font-weight: 500;
+  font-size: 35px;
+  margin-bottom:30px;
+  text-align: center;  
+}
+.section_description{
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.about-contact{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+
+}
+.info-title{
+  font-size: 15px;
+  font-weight: 300;
+  margin: 20px 0px 10px 0px;
+}
+.info-subTitle{
+  font-weight: 500;
+  font-size: 18px;
+}
+/* Service style */
+.servic{
+  margin-top: 130px;
+}
+
+.servic-container{
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  gap: 50px;
+}
+.service-details{
+  box-shadow: 0px 0px 10px  rgba(92, 74, 74, 0.568);
+  padding: 20px;
+  border-radius: 5px;
+}
+.service-heading{
+  margin: 20px 0px;
+}
+.service-description{
+  font-size: 18px;
+}
+.summery-content{
+  display: flex;
+  gap: 100px;
+}
+.summery{
+  margin-top: 100px;
+}
